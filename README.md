@@ -37,3 +37,9 @@ Then add the below line to it:
 `*/10 * * * * docker stop welcome-bot && docker start welcome-bot`
 
 This will run the service every ten minutes. To change this use [Crontab Guru](https://crontab.guru)
+
+### View logs from inside the container
+
+Run the below command to see the output of the bot.
+
+`docker container logs -f welcome-bot`
