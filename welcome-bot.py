@@ -27,8 +27,11 @@ here!
 @client.event
 async def on_member_join(member):
     print("Recognised that a member called " + member.name + " joined")
+    try: 
     await client.send_message(member, newUserMessage)
     print("Sent message to " + member.name)
+    except:
+        print("Couldn't message " + member.name)
 
     # give member the steam role here
     ## to do this the bot must have 'Manage Roles' permission on server, and role to add must be lower than bot's top role
