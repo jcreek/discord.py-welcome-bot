@@ -1,5 +1,5 @@
 # discord.py-welcome-bot
-__
+
 A simple bot that can be used to welcome new users to a discord server, send them a custom private message, send a welcome message to a specific channel, and adding them to a role.
 
 A video explaining how to set up everything except adding the user to a role can be found [here](https://youtu.be/N0NP7BfUFxA).
@@ -8,11 +8,11 @@ A video explaining how to set up everything except adding the user to a role can
 **Update November 2020** - Added basic install instructions for home computers and generic Linux distros, and how to enable Intents.
 
 ## Intents
-__
+
 Go to the [Discord Developer Portal](https://discord.com/developers/applications) and select your bot. Now move to the bot tab and scroll down. There you should see `Priveledged Gateway Intents`. Enable the `Members` intent.
 ![Enable Members Intent](https://i.imgur.com/rPePBe6.png)
 ## Easy: How to install the welcome-bot on a home computer:
-__
+
 Make sure that you've installed Python 3.6 or higher before beginning this.
 ### Linux
 
@@ -44,10 +44,10 @@ After extracting, you can navigate into the folder and just double-click the fil
 ![Running the file](https://i.imgur.com/pFdAa80.png)
 
 ## Advanced: How to install the welcome-bot as a docker container on a server (raspberrypi)
-__
+
 
 ### Building the image
-__
+
 Copy the folder containing the Dockerfile onto the server. Go to the directory that has the Dockerfile and run the following command to build the Docker image from the source code:
 
 `docker build -t welcome-bot .`
