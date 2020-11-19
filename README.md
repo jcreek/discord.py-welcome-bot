@@ -4,8 +4,11 @@ A simple bot that can be used to welcome new users to a discord server, send the
 
 A video explaining how to set up everything except adding the user to a role can be found [here](https://youtu.be/N0NP7BfUFxA).
 
-**Update November 2019** - Now set up as a docker container to ensure full compatibility as I will not be maintaining this. Specific versions of Python and Discord.py are required for this script to work.
-**Update November 2020** - Added basic install instructions for home computers and generic Linux distros.
+**Update November 2019** - Now set up as a docker container to ensure full compatibility as I will not be maintaining this. Specific versions of Python and Discord.py are required for this script to work.\
+**Update November 2020** - Added basic install instructions for home computers and generic Linux distros, and how to enable Intents.
+## Intents
+Go to the [Discord Developer Portal](https://discord.com/developers/applications) and select your bot. Now move to the bot tab and scroll down. There you should see `Priveledged Gateway Intents`. Enable the `Members` intent.
+![Enable Members Intent](https://i.imgur.com/rPePBe6.png)
 ## Easy: How to install the welcome-bot on a home computer:
 Make sure that you've installed Python 3.6 or higher before beginning this.
 ### Linux
