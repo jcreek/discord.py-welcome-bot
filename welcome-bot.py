@@ -34,8 +34,8 @@ async def on_member_join(member):
     except:
         print("Couldn't message " + member.name)
     embed=discord.Embed(
-        title="Welcome "+member.name+"!"
-        description="We're so glad you're here!"
+        title=f"Welcome {member.name}!",
+        description="We're so glad you're here!",
         color=discord.Color.green()
     )
         
@@ -47,8 +47,8 @@ async def on_member_join(member):
 async def on_member_leave(member):
     print("Recognised that a member called " + member.name + " left")
     embed=discord.Embed(
-        title="😢 Goodbye "+member.name+"!",
-        description="Until we meet again old friend." # A description isn't necessary, you can delete this line if you don't want a description.
+        title=f"😢 Goodbye {member.name}!",
+        description="Until we meet again old friend.", # A description isn't necessary, you can delete this line if you don't want a description.
         color=discord.Color.red() # There are lots of colors, you can check them here: https://discordpy.readthedocs.io/en/latest/api.html?highlight=discord%20color#discord.Colour
     )
 client.run('token') 
