@@ -9,6 +9,8 @@ A video explaining how to set up everything except adding the user to a role can
 
 **Update November 2020** - Added basic install instructions for home computers and generic Linux distros, and how to enable Intents. (by [isigebengu-mikey](https://github.com/isigebengu-mikey))
 
+**Update August 2021** - The discord.py project is [no longer under development](https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1). If you're looking at this project and are interested in making your own Discord bots then take a look at [MupBot - a Node.js discord bot implementation](https://github.com/jcreek/MupBot) to get you started. This repo will never be updated again so is being put into read-only mode.
+
 ## Intents
 
 Go to the [Discord Developer Portal](https://discord.com/developers/applications) and select your bot. Now move to the bot tab and scroll down. There you should see `Priveledged Gateway Intents`. Enable the `Members` intent.
